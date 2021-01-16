@@ -1,0 +1,38 @@
+header{
+margin:0%;
+padding:0%;
+width: 100%;
+
+}
+
+ul{
+ list-style-type: none;
+}
+
+.nav-list-right{
+    float: right;
+}
+
+main{
+    margin-left: 50%;
+    margin-right: auto;
+}
+.main-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.google {
+   margin-top: 180px;
+   margin-bottom: 20px;
+    }
+
+img.main-center{
+    height: 10%;
+    width: 10%;
+}
+
+.image-search{
+    height:10%;
+    width:10%;
+}
