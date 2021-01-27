@@ -1,64 +1,54 @@
 <!DOCTYPE html>
-
 <html>
+  <head>
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <title>Barkhad's Google homepage project</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-
-<body>
-
-
-
-    <header>
-        <nav class="nav">
-            <ul class="nav-list-right">
-                <li>Gmail</li>
-                <li>Images</li>
-                <li class="app-draw"></li><img class="app-draw" src="images/google-apps.svg" alt="Google apps"></a>
-            </ul>
-        </nav>
-    </header>
-
-
-
+  <body>
+    <nav>
+      <a class="Gmail">Gmail</a>
+      <a class="Image">Images</a>
+      <a class="toplink"></a>
+    </nav>
     <main>
-        <div class="main-center">
-            <img class="google" src="images/google-logo.png" alt="none">
-        </div>
+      <div class="logo">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt=""
+        />
+      </div>
 
-        <form>
-            <input type="text">
-            <! -- <input class="image-search" type="image" src="" alt="Search">
-                -->
-        </form>
+      <div class="searchbar-container">
+        <input type="text" class="searchbar" />
+      </div>
 
-        <div class="main buttons">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
-        </div>
+      <div class="button-container">
+        <input class="buttons" type="submit" value="Google Search" />
+        <input class="buttons" type="button" value="I'm Feeling Lucky" />
+      </div>
+      <div class="links">
+        Google offered in: <a href="">Dansk</a> <a href="">Føroyskt</a>
+      </div>
     </main>
-
-
-
     <footer>
-        <ul class="footer-list-left">
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>About</li>
-            <li>How Search works</li>
-        </ul>
-
-        <ul class="footer-list-right">
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
+      <div class="country-footer">Denmark</div>
+      <div class="footer-links">
+        <div class="footer-business">
+          <a href="" class="business-links">Adverstising</a>
+          <a href="" class="business-links">Business</a>
+          <a href="" class="business-links">About</a>
+          <a href="" class="business-links">How Search works</a>
+        </div>
+        <div class="footer-legal">
+          <a href="" class="legal-links">Privacy</a>
+          <a href="" class="legal-links">Terms</a>
+          <a href="" class="legal-links">Settings</a>
+        </div>
+      </div>
     </footer>
-
-</body>
-
+    <script src="" async defer></script>
+  </body>
 </html>
+
+<!DOCTYPE html>
